@@ -1,0 +1,62 @@
+body {
+    background-color: #131212;
+    color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  .register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .register-frame {
+    width: 100%;
+    max-width: 500px;
+    background: #1b1919;
+    border: 1px solid #343a40;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .register-frame h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  .register-frame .form-group {
+    margin-bottom: 20px;
+  }
+  .register-frame .form-control {
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    color: #ffffff;
+  }
+  .register-frame .form-control:focus {
+    background-color: #495057;
+    border-color: #495057;
+    color: #ffffff;
+  }
+  .register-frame .btn {
+    width: 100%;
+  }
+  .register-frame a {
+    color: #ff0000;
+  }
+  .register-frame a:hover {
+    text-decoration: underline;
+  }
+  .password-requirements {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  .password-requirements li {
+    color: #ced4da;
+  }
+  .password-requirements .valid {
+    color: #28a745; /* Green color for valid conditions */
+  }
+  .password-requirements .invalid {
+    color: #dc3545; /* Red color for invalid conditions */
+  }
